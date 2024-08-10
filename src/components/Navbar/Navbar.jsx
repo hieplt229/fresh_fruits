@@ -29,7 +29,8 @@ const Navbar = () => {
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ duration: 0.5, delay: 0.5 }}
+          transition={{ duration: 0.5 }}
+          viewport={{ once: true }}
           className="container flex justify-between items-center py-4 md: pt-4"
         >
           <div
