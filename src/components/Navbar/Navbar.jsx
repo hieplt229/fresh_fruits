@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import { MdMenu, MdClose } from "react-icons/md";
 import { motion } from "framer-motion";
 import { useToggle } from "@uidotdev/usehooks";
@@ -12,15 +12,11 @@ const Navbar = () => {
   const [toggle, handleToggle] = useToggle(false);
 
   const handleScrollToTop = () => {
-    const options = {
-      duration: 300,
-      smooth: true,
-    };
-    animateScroll.scrollToTop(options);
+    animateScroll.scrollToTop();
   };
 
   useEffect(() => {
-    handleScrollToTop();
+    animateScroll.scrollToTop();
   }, []);
 
   return (
@@ -80,7 +76,7 @@ const Navbar = () => {
         </motion.div>
       </nav>
 
-      {/* <ResponsiveMenu visible={toggle} /> */}
+      <ResponsiveMenu visible={toggle} onClose={() => handleToggle(false)} />
     </>
   );
 };

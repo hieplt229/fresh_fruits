@@ -5,7 +5,8 @@ import Products from "./components/Products/Products";
 import About from "./components/About/About";
 import About2 from "./components/About/About2";
 import About3 from "./components/About/About3";
-import Contacts from "./contacts/Contacts";
+import Contacts from "./components/Contacts/Contacts";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
         <About3 />
         <Contacts />
       </div>
+      <Footer />
     </main>
   );
 };

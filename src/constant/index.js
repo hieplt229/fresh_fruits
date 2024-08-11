@@ -1,3 +1,8 @@
+import AppleImg from "@assets/product_img/apple.png";
+import Avocado from "@assets/product_img/avocado.png";
+import Cherry from "@assets/product_img/cherry.png";
+import Orange from "@assets/product_img/orange.png";
+
 export const ConstScroll = {
   home: "/",
   products: "products",
@@ -13,9 +18,12 @@ export const MenuList = [
 ];
 
 export const ProductsList = [
-  { name: "Home", info: "" },
-  { name: "Product", info: "" },
-  { name: "Contact", info: "" },
+  { name: "Sản phẩm 1", image: AppleImg, info: "" },
+  { name: "Sản phẩm 2", image: Avocado, info: "" },
+  { name: "Sản phẩm 3", image: Cherry, info: "" },
+  { name: "Sản phẩm 4", image: Orange, info: "" },
+  { name: "Sản phẩm 5", image: AppleImg, info: "" },
+  { name: "Sản phẩm 6", image: Avocado, info: "" },
 ];
 
 export const ContactInfo = {
