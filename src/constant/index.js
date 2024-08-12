@@ -18,13 +18,41 @@ export const MenuList = [
 ];
 
 export const ProductsList = [
-  { name: "Sản phẩm 1", image: AppleImg, info: "" },
-  { name: "Sản phẩm 2", image: Avocado, info: "" },
-  { name: "Sản phẩm 3", image: Cherry, info: "" },
-  { name: "Sản phẩm 4", image: Orange, info: "" },
-  { name: "Sản phẩm 5", image: AppleImg, info: "" },
-  { name: "Sản phẩm 6", image: Avocado, info: "" },
+  {
+    name: "Sản phẩm 1",
+    image: AppleImg,
+    info: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+  },
+  {
+    name: "Sản phẩm 2",
+    image: Avocado,
+    info: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+  },
+  {
+    name: "Sản phẩm 3",
+    image: Cherry,
+    info: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+  },
+  {
+    name: "Sản phẩm 4",
+    image: Orange,
+    info: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+  },
+  {
+    name: "Sản phẩm 5",
+    image: AppleImg,
+    info: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+  },
+  {
+    name: "Sản phẩm 6",
+    image: Avocado,
+    info: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+  },
 ];
+
+export const Socical = {
+  messenger: "",
+};
 
 export const ContactInfo = {
   address:

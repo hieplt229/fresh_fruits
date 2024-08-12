@@ -13,4 +13,7 @@
   .drop-shadow {
     filter: drop-shadow(-6px 8px 15px rgba(0, 0, 0, 0.2));
   }
+  .img-shadow2 {
+    filter: drop-shadow(10px 30px 15px #3030307a);
+  }
 }
