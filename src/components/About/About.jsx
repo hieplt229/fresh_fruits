@@ -31,7 +31,7 @@ const About = () => {
               viewport={{ once: true }}
               className="text-3xl lg:text-6xl font-bold uppercase"
             >
-              Brand Info
+              Giới thiệu
             </motion.h1>
 
             <motion.p
@@ -40,26 +40,13 @@ const About = () => {
               whileInView="visible"
               viewport={{ once: true }}
             >
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Molestias, quo officiis. Beatae voluptate nemo delectus
-              aspernatur. Fuga, porro quis facere cupiditate voluptatem quo
-              repudiandae natus, possimus nihil veniam officia nam.
-            </motion.p>
-
-            <motion.p
-              variants={FadeUp(0.9)}
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true }}
-            >
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Molestias, quo officiis. Beatae voluptate nemo delectus
-              aspernatur. Fuga, porro quis facere cupiditate voluptatem quo
-              repudiandae natus, possimus nihil veniam officia nam.
+              Nông trại dưa lưới New Farm đã sản xuất những trái dưa lưới tươi
+              ngon, an toàn, đầy dinh dưỡng và không ngừng lao động để tạo ra
+              sản phẩm chất lượng tốt nhất cho khách hàng.
             </motion.p>
 
             {/* Button */}
-            <motion.div
+            {/* <motion.div
               variants={FadeUp(1.1)}
               initial="hidden"
               whileInView="visible"
@@ -67,7 +54,7 @@ const About = () => {
               className="flex justify-center md:justify-start"
             >
               <button className="primary-btn">Learn More</button>
-            </motion.div>
+            </motion.div> */}
           </div>
         </div>
       </div>

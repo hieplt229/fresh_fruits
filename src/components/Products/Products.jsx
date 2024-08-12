@@ -84,7 +84,7 @@ const Products = () => {
               </div>
 
               <div className="space-y-2">
-                <h1 className="text-2xl font-bold text-primary">
+                <h1 className="text-2xl font-bold capitalize text-primary">
                   {product.name}
                 </h1>
               </div>

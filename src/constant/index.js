@@ -19,32 +19,32 @@ export const MenuList = [
 
 export const ProductsList = [
   {
-    name: "Sản phẩm 1",
+    name: "Dưa Lưới Bạch ngọc",
     image: AppleImg,
     info: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
   },
   {
-    name: "Sản phẩm 2",
+    name: "Dưa Lưới Huỳnh Long",
     image: Avocado,
     info: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
   },
   {
-    name: "Sản phẩm 3",
+    name: "Dưa Lưới Mật",
     image: Cherry,
     info: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
   },
   {
-    name: "Sản phẩm 4",
+    name: "Dưa lưới Hạ Uyển - Hami",
     image: Orange,
     info: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
   },
   {
-    name: "Sản phẩm 5",
+    name: "Dưa lưới SunGold",
     image: AppleImg,
     info: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
   },
   {
-    name: "Sản phẩm 6",
+    name: "Dưa lưới TL3",
     image: Avocado,
     info: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
   },
@@ -60,9 +60,12 @@ export const ContactInfo = {
   phone: "0394 325 155",
   mail: "",
   zalo: "",
+  messenger: "New Farm- Dưa Organic -Dưa nhà màng",
 };
 
-
-export const HeroData = {
-  
-}
+export const Contents = {
+  hero: {},
+  products: {},
+  about: {},
+  contact: {},
+};

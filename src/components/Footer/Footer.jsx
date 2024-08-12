@@ -13,7 +13,7 @@ const Footer = () => {
 
   return (
     <footer className="bg-secondary/10 py-12">
-      <motion.div
+      {/* <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.2 }}
@@ -37,7 +37,7 @@ const Footer = () => {
           <FaFacebookMessenger />
           <FaFacebookMessenger />
         </div>
-      </motion.div>
+      </motion.div> */}
     </footer>
   );
 };

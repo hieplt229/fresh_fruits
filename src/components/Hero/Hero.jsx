@@ -3,7 +3,8 @@ import { motion } from "framer-motion";
 import { ConstScroll } from "@/constant";
 import { FadeRight } from "@/utility/animation";
 
-import HeroPng from "@/assets/fruit-plate.png";
+import HeroPng from "@/assets/hero_png.png";
+// import HeroPng from "@/assets/snapedit_1723481855631.png";
 import LeafPng from "@/assets/leaf.png";
 
 const Hero = () => {
@@ -28,12 +29,12 @@ const Hero = () => {
               variants={FadeRight(0.9)}
               initial="hidden"
               animate="visible"
-              className="text-2xl tracking-wide"
+              className="text-xl text-gray-500 font-medium tracking-wide"
             >
               Chuyên cung cấp các loại dưa lưới sạch
             </motion.p>
 
-            <motion.p
+            {/* <motion.p
               variants={FadeRight(1.2)}
               initial="hidden"
               animate="visible"
@@ -45,7 +46,7 @@ const Hero = () => {
               lớp đầu tiên là lớp màng phủ nông nghiệp màu đen để tránh bức xạ
               nhiệt từ đất, tránh ấu trùng trong đất phát triển và ảnh hưởng tới
               cây bên trong nhà kính,….
-            </motion.p>
+            </motion.p> */}
 
             {/* button section */}
             <motion.div
@@ -65,7 +66,7 @@ const Hero = () => {
             initial={{ opacity: 0, x: 200, rotate: 75 }}
             animate={{ opacity: 1, x: 0, rotate: 0 }}
             transition={{ duration: 1, delay: 0.2 }}
-            className="w-[350px] md:w-[550px] drop-shadow"
+            className="w-[450px] md:w-[650px] drop-shadow"
             src={HeroPng}
             alt="Hero Images"
           />

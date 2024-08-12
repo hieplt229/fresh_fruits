@@ -54,7 +54,7 @@ const About3 = () => {
                 viewport={{ once: true }}
                 className="flex justify-center md:justify-start"
               >
-                <button className="primary-btn">Learn More</button>
+                <button className="primary-btn">Liên hệ</button>
               </motion.div>
             </div>
           </div>
