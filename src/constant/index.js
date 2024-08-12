@@ -61,3 +61,8 @@ export const ContactInfo = {
   mail: "",
   zalo: "",
 };
+
+
+export const HeroData = {
+  
+}

@@ -19,10 +19,9 @@ const Hero = () => {
               animate="visible"
               className="text-5xl lg:text-6xl font-bold leading-relaxed font-averia"
             >
-              Healthy
+              Dưa lưới
               <br />
-              Fresh
-              <span className="text-secondary">Fruits!</span>
+              <span className="text-secondary">New Farm</span>
             </motion.h1>
 
             <motion.p
@@ -31,7 +30,7 @@ const Hero = () => {
               animate="visible"
               className="text-2xl tracking-wide"
             >
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Chuyên cung cấp các loại dưa lưới sạch
             </motion.p>
 
             <motion.p
@@ -40,10 +39,12 @@ const Hero = () => {
               animate="visible"
               className="text-gray-400"
             >
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet et
-              doloribus ipsum sed maxime officiis neque voluptatibus, culpa
-              explicabo nobis reiciendis numquam rem, illo ipsa laborum sit
-              dicta dolore. Iste.
+              Dưa lưới được trồng trong nhà kính, sử dụng giá thể xơ dừa đã được
+              xử lý, với hệ thống tưới nhỏ giọt của Israel, nền nhà được trải
+              bạt lót sàn màu đen. Bên trong nhà kính, nền nhà được lót hai lớp,
+              lớp đầu tiên là lớp màng phủ nông nghiệp màu đen để tránh bức xạ
+              nhiệt từ đất, tránh ấu trùng trong đất phát triển và ảnh hưởng tới
+              cây bên trong nhà kính,….
             </motion.p>
 
             {/* button section */}
@@ -53,7 +54,7 @@ const Hero = () => {
               animate="visible"
               className="flex justify-center md:justify-start"
             >
-              <button className="primary-btn">Order Now</button>
+              <button className="primary-btn">Liên hệ</button>
             </motion.div>
           </div>
         </div>
