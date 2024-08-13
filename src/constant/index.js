@@ -1,7 +1,9 @@
-import AppleImg from "@assets/product_img/apple.png";
-import Avocado from "@assets/product_img/avocado.png";
-import Cherry from "@assets/product_img/cherry.png";
-import Orange from "@assets/product_img/orange.png";
+import SP_1 from "@assets/product_img/dua_bach_ngoc.png";
+import SP_2 from "@assets/product_img/huynh_long.png";
+import SP_3 from "@assets/product_img/dua_mat.png";
+import SP_4 from "@assets/product_img/ha_mi.png";
+import SP_5 from "@assets/product_img/sun_gold.png";
+import SP_6 from "@assets/product_img/tl_3.png";
 
 export const ConstScroll = {
   home: "/",
@@ -20,32 +22,32 @@ export const MenuList = [
 export const ProductsList = [
   {
     name: "Dưa Lưới Bạch ngọc",
-    image: AppleImg,
+    image: SP_1,
     info: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
   },
   {
     name: "Dưa Lưới Huỳnh Long",
-    image: Avocado,
+    image: SP_2,
     info: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
   },
   {
     name: "Dưa Lưới Mật",
-    image: Cherry,
+    image: SP_3,
     info: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
   },
   {
     name: "Dưa lưới Hạ Uyển - Hami",
-    image: Orange,
+    image: SP_4,
     info: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
   },
   {
     name: "Dưa lưới SunGold",
-    image: AppleImg,
+    image: SP_5,
     info: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
   },
   {
     name: "Dưa lưới TL3",
-    image: Avocado,
+    image: SP_6,
     info: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
   },
 ];

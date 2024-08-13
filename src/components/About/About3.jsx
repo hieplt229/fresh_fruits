@@ -54,7 +54,12 @@ const About3 = () => {
                 viewport={{ once: true }}
                 className="flex justify-center md:justify-start"
               >
-                <button className="primary-btn">Liên hệ</button>
+                <a
+                  href="https://www.facebook.com/profile.php?id=61557781107859"
+                  target="_blank"
+                >
+                  <button className="primary-btn">Liên hệ</button>
+                </a>
               </motion.div>
             </div>
           </div>
